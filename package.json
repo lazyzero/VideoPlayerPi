@@ -1,0 +1,9 @@
+{
+  "name": "VideoPlayer",
+  "version": "0.0.0",
+  "dependencies": {
+    "johnny-five": "^0.13.0",
+    "node-omxplayer": "^0.6.1",
+    "raspi-io": "^8.1.0"
+  }
+}
