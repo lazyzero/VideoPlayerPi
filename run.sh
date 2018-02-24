@@ -8,7 +8,7 @@ xset -dpms
 unclutter &
 
 cd /home/pi/VideoPlayer
-chromium-browser --kiosk file://~/VideoPlayer/index.html --start-fullscreen --disable-infobars --disable-session-crashed-bubble &
+chromium-browser --kiosk --incognito file://~/VideoPlayer/index.html &
 sudo node app.js
 sudo fuser -k -n tcp 8888
 sudo killall chromium-browser
